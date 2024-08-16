@@ -1,0 +1,85 @@
+.grid-container {
+    height: 80vh;
+    display: grid;
+    place-items: center center;
+}
+
+.dash-content ul li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+.dash-logo {
+    margin: 0 auto; 
+    width: 200px;
+}
+.count {
+    border: 1px solid #ccc;
+}
+#generateLeadBtn {
+    display: grid;
+    align-self: center;
+}
+
+.cover { 
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    text-shadow: 0 0 5px #555;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    top: -30px;
+    width: 100%;
+   background-color: rgba(9, 87, 170, 0.85);
+   -webkit-transition: opacity 1800ms, visibility 1800ms;
+   transition: opacity 1800ms, visibility 1800ms;
+   color: #fff;
+   border: 2px solid white;
+   box-shadow: 5px 5px 15px #000;
+   border-radius: 8px;
+   z-index: 9999;
+}
+#emailRules {
+    width: 350px;
+    height: auto;   
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1e8;
+  text-align: left;
+  top: 20%;
+  left: 50vw;
+  box-shadow: 5px 5px 10px #555;
+  padding: 5px;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  border-radius: 4px 4px 0 0;
+  background-image: linear-gradient(to right top, #3472f7, #2261d0, #134fab, #083e86, #052e63, #03285c, #022354, #001d4d, #001f5d, #00206d, #00207c, #001f8b);
+  color: #fff;
+}
+
+/* the newest style - working with a table and flex */
+.agent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.main-panel::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
